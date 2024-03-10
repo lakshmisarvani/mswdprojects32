@@ -1,0 +1,57 @@
+/* jobseeker.css */
+
+form {
+    margin: auto;
+    width: 300px;
+    text-align: center; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  input[type='number'],
+  input[type='email'],
+  select,
+  input[type='date'],
+  textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type='submit'] {
+    background-color: rgb(223, 52, 100);
+    color: rgb(241, 225, 225);
+    padding: 15px 20px;
+    border: 1px solid  rgb(223, 52, 100);
+    border-radius: 12px;
+  font-size: 16px;
+  }
+
+  
+  button[type='submit']:hover {
+    background-color: #e66288;
+  }
+  
+  .button1{
+    width: 250px;
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    border: 2px solid #c2e9f7;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+  .button1:hover {
+    background-color: #2cab81; /* Green */
+    color: white;
+  }
+  

@@ -1,0 +1,44 @@
+.login-container {
+    position: relative;
+}
+
+.bg-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.centered-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.centered-form label,
+.centered-form input[type="text"],
+.centered-form input[type="password"],
+.centered-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.centered-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
